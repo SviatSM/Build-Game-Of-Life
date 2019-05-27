@@ -28,3 +28,5 @@ Prepare your vm host:
  Configuring Jenkins master
   - added 2 new nodes
   
+ ![Screenshot](screenshot.png) 
+  
