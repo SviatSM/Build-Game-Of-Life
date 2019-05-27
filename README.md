@@ -11,7 +11,11 @@ Create VM instance on Google Cloud.
 
 # 2. Second step
 Prepare your host:
- - by running scripts docker_inst.sh maven_inst.sh
+ - by running scripts 
+ ```bassh
+ bash docker_inst.sh 
+ bash maven_inst.sh
+ ```
  
  - or run ansible playbooks docker.yml and maven.yml
  
