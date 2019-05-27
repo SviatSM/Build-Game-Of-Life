@@ -10,7 +10,7 @@ In this example we use Google Cloud Platform ( VM instances with Centos 7 )
 Create VM instance on Google Cloud.
 
 # 2. Second step
-Prepare your host:
+Prepare your vm host:
  - by running scripts on host 
  ```bassh
  bash docker_inst.sh 
@@ -23,5 +23,8 @@ Prepare your host:
  ansible-playbook maven.yml
  ```
  
+ # 3. Third step
  
- 
+ Configuring Jenkins master
+  - added 2 new nodes
+  
