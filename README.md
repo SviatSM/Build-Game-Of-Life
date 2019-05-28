@@ -40,4 +40,18 @@
     
    ![4](images/4.png)
 
-    - 
+# 4. Fourth step
+
+ Creating job for building.
+  - install java and maven with scripts or use ansible or use jenkins installation;
+  
+  ![5](images/5.png)
+  
+  - Build job -its Github project with label build. Source Code Management - Git. In this case we use GitHub hook trigger for GITScm polling, so after some push changes into our branch this job will start. Some build enviroment configuration. Build - Maven targets with goal package.
+  
+   ![6](images/6.png)
+   
+   ![7](images/7.png)
+   
+   ![8](images/8.png)
+  
