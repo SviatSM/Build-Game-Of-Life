@@ -73,6 +73,26 @@
   
   ![11](images/11.png)
   
+# 6. Sixth step
+
+ Creating job for start docker container with Game Of Life.
+ Label Expression - build. Build triggers - after project DeployGame.
+  
+  ![12](images/12.png)
+  
+ Build - execute shell
+
+  ![13](images/13.png)
+  
+  
+ # Game Of Life
+ 
+  ![14](images/14.png)
+
+# Seventh step
+
+ Delpoy docker container to Kubernets cluster.
+  
   
  
 
