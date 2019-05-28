@@ -1,0 +1,18 @@
+---
+ - name: Install 
+   hosts: google
+   remote_user: ssoza
+   become: yes
+
+   tasks:
+   - name: Step1
+     action: shell sudo curl -fsSL https://get.docker.com -o get-docker.sh
+   - name: Step2
+     action: shell sudo sh get-docker.sh
+   - name: Step3
+     action: shell sudo usermod -aG docker $(whoami)
+   - name: Step4
+     action: shell sudo systemctl enable docker.service
+   - name: Step5
+     action: shell sudo systemctl start docker.service
+
