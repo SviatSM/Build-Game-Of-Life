@@ -32,12 +32,12 @@
   Configuring Jenkins master
    - added 2 new nodes ( specify labels and numbers of executors)
     
-    ![2](images/2.png)
+   ![2](images/2.png)
    
-    ![3](images/3.png)
+   ![3](images/3.png)
    
    - configure your jenkins with github ( added webhook and credentials)
     
-    ![4](images/4.png)
+   ![4](images/4.png)
 
     - 
