@@ -54,4 +54,27 @@
    ![7](images/7.png)
    
    ![8](images/8.png)
+   
+# 5. Fifth step
+
+ Creating job for deploy war file into docker container.
+ Label expression - deploy. Build triggers - after project BuildGame build and stable.
+  
+  ![9](images/9.png) 
+  
+  ![10](images/10.png)
+ 
+ Build - Execute shell
+ 
+  ```bash
+  cd /home/ssoza/workspace/BuildGame/gameoflife-web/target
+  docker build -t game .
+  ```
+  
+  ![11](images/11.png)
+  
+  
+ 
+
+
   
