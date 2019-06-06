@@ -2,7 +2,7 @@
 
  You can find this app here https://github.com/docclion/game-of-life
 
-# Preparing enviroments
+# Preparing environments
 
  In this example we use Google Cloud Platform ( VM instances with Centos 7 )
 
