@@ -89,9 +89,7 @@
  
   ![14](images/14.png)
 
-# 7. Seventh step
 
- Delpoy docker container to Kubernets cluster.
   
   
  
